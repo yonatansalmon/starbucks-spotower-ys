@@ -1,0 +1,79 @@
+.NavContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.FlexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.NavItemsContainer {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.MapLogo {
+  margin-right: 1rem;
+}
+
+.FindStoreText {
+  font-size: 14px;
+  width: 100px;
+  color: #000;
+  font-weight: 600;
+}
+
+.NavItem {
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+}
+
+.SignInBtn {
+  color: rgba(0, 0, 0, 0.87);
+  display: inline-block;
+  background: none;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50px;
+  padding: 7px 16px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+  cursor: pointer;
+}
+
+.JoinNowBtn {
+  background-color: #000 !important;
+  color: #fff;
+  border-color: #000;
+  display: inline-block;
+  background: none;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50px;
+  padding: 7px 16px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+.HamburgerMenu {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .FlexCenter {
+    display: none;
+  }
+
+  .HamburgerMenu {
+    display: block;
+  }
+}

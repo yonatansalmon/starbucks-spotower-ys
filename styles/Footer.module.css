@@ -1,0 +1,24 @@
+.FooterContainer {
+  display: flex;
+  list-style: none;
+}
+
+.FooterItemContainer {
+  display: flex;
+  font-size: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.Divider {
+  margin: 0 .5rem
+}
+
+
+@media(max-width: 600px) {
+  .FooterContainer {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+}
